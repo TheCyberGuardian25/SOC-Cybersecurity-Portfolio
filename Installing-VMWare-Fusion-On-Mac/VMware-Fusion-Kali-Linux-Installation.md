@@ -18,7 +18,7 @@
 
   <img width="238" height="181" alt="Screenshot 2025-11-11 at 13 32 16" src="https://github.com/user-attachments/assets/15bc1e8b-bb33-4a07-996a-563894f86b10" />
 
-  * Choose Install from disc or image → select the Kali ISO you downloaded.
+* Choose Install from disc or image → select the Kali ISO you downloaded.
     
 <img width="636" height="527" alt="1" src="https://github.com/user-attachments/assets/f46430d8-01e9-4111-8682-7e92b1d66bbb" />
 

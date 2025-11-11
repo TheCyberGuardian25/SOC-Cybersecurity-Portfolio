@@ -23,7 +23,8 @@
 
 <img width="995" height="196" alt="Screenshot 2025-11-11 at 17 04 37" src="https://github.com/user-attachments/assets/536adf9f-a004-43d9-9023-6b390ee18869" />
 
-* This table shows which Windows Update settings are changed and which are not.
+
+**This table shows which Windows Update settings under Advanced Options are changed and which are not**
 
 | Setting | Configured Value | Rationale |
 |----------|------------------|------------|

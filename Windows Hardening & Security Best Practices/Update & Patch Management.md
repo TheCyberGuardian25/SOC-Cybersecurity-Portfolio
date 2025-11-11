@@ -1,9 +1,11 @@
-##### As a cybersecurity, ensuring the Windows have a latest update and patch management is one of the best practices in making sure that our system is always protected against known vulnerabilities.
+# Update and Patch Management
+
+##### As a cybersecurity professional, ensuring that Windows has the latest updates and patches is one of the best practices to keep our systems protected against known vulnerabilities.
 
 ## 🧩 1. Enable Windows Update for Automatic Updates
 * We should make sure that Windows automatically downloads and installs updates to keep our system secure.
   
-## Steps for Enabling Automatic Updates
+## Steps to Enable Automatic Updates
 
 #### Open Windows Update Settings
 * Press Win + I → **Windows Update** (on Windows 11)

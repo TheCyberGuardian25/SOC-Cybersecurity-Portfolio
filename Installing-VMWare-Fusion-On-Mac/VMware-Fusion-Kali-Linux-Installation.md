@@ -26,7 +26,7 @@
 
   <img width="636" height="527" alt="2" src="https://github.com/user-attachments/assets/b631cb31-df99-40d3-8da6-3b8b2bd5e8e5" />
 
-* Click the kali-linux-2025.3-installer-arm64.iso
+* Select the kali-linux-2025.3-installer-arm64.iso you just downloaded
   
   <img width="636" height="261" alt="3" src="https://github.com/user-attachments/assets/2d5ff404-297a-4d67-9168-91b238245f88" />
 

@@ -107,20 +107,32 @@
 <img width="685" height="116" alt="image" src="https://github.com/user-attachments/assets/c25dbf1e-52ce-4fd2-bd33-f89f068d00cb" />
 
 * Click “shift+F10” to open the Command Prompt. If it’s not working, then you can try “shift+FN+F10.
-Type the command “OOBE\BYPASSNRO”. This command allows you to continue with the set up without connecting to the internet.
+Type the command “OOBE\BYPASSNRO”. This command allows you to continue with the setup without connecting to the internet.
 
+###### Out-Of-Box Experience (OOBE) — when you install or setup the Windows, this is the initial setup process
+###### BYPASSNRO — the command that changes the registry to skip the Network Requirement Option (NRO)
 
+<img width="685" height="116" alt="image" src="https://github.com/user-attachments/assets/956988bd-ea1f-409e-bbac-cfdbf2a40b1e" />
 
+* After you enter the command, it will restart the VM. You will then restart the process of setting up your Windows 11.
 
+  <img width="685" height="486" alt="image" src="https://github.com/user-attachments/assets/f4632acd-4780-4ca0-8a5d-8d4089a348a8" />
 
+  * After you select your country and set up your keyboard, you need to connect to your network. 
 
+<img width="685" height="483" alt="image" src="https://github.com/user-attachments/assets/bcdd44e0-ce65-47b0-9c42-13068adbc2f1" />
 
+* After bypassing the network setup, you need to create a username for your device.
 
+  <img width="685" height="466" alt="image" src="https://github.com/user-attachments/assets/ea653def-724e-45d5-b7d3-43f7997759e0" />
 
+  * You need to create your password as well.
+ 
+<img width="685" height="484" alt="image" src="https://github.com/user-attachments/assets/4932c764-af84-46a9-ad17-e348931af9d6" />
 
+* There are 3 security questions that you need to choose and answer
+* Follow the instructions to complete the setup of your OS
 
+  <img width="685" height="510" alt="image" src="https://github.com/user-attachments/assets/17388369-825e-43df-96f8-ea21955db073" />
 
-
-
-
-
+#### After you follow the directions to set up your OS, it will restart and it will look like in the photo above. Congratulations 🙌 ❗ ️You just finished setting up your Windows 11 Pro on your VM.

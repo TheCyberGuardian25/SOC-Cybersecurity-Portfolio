@@ -136,3 +136,50 @@ Type the command “OOBE\BYPASSNRO”. This command allows you to continue with 
   <img width="685" height="510" alt="image" src="https://github.com/user-attachments/assets/17388369-825e-43df-96f8-ea21955db073" />
 
 #### After you follow the directions to set up your OS, it will restart and it will look like in the photo above. Congratulations 🙌 ❗ ️You just finished setting up your Windows 11 Pro on your VM.
+
+## Install VMware Tools
+
+<img width="685" height="363" alt="image" src="https://github.com/user-attachments/assets/b3b69925-9dc5-46a9-b5c1-3a1b50331602" />
+
+* On the upper left side of your VMware, under “Virtual Machine”, click “Install VMware Tools”.
+
+<img width="685" height="179" alt="image" src="https://github.com/user-attachments/assets/a4e0aa35-6623-4a30-a2a4-c8b8ce7874fa" />
+
+* The VMware Tools Installer will pop up on your screen. Click “Install” to start the installation of the VMware Tools.
+
+  <img width="685" height="204" alt="image" src="https://github.com/user-attachments/assets/7f089513-f457-442e-a8ad-889d7c99b291" />
+
+* When the installation is done, the photo above will display at the bottom of your VM screen
+
+  <img width="685" height="509" alt="image" src="https://github.com/user-attachments/assets/fd211848-7860-48c6-a304-c6c595923f7a" />
+
+* Go to your File Explorer to check your DVD Drive.
+* Double click the “Setup” to start the setup process of the VMware tools.
+
+<img width="685" height="582" alt="image" src="https://github.com/user-attachments/assets/ebc86596-ef89-4376-bedf-74b421914ec2" />
+
+* Click “Yes” to proceed with the setup
+
+<img width="685" height="552" alt="image" src="https://github.com/user-attachments/assets/52d96a20-0945-4f62-af93-d63c47494bc9" />
+
+* Click “Next”
+
+<img width="685" height="552" alt="image" src="https://github.com/user-attachments/assets/bad0cf71-c605-4038-8454-647da0b6ba57" />
+
+* Select the setup type that you need, after you choose, click “Next”
+
+<img width="685" height="552" alt="image" src="https://github.com/user-attachments/assets/27f54409-7d06-4461-9835-5a655d2f6514" />
+
+* To start the installation, click “Install”
+
+  <img width="685" height="645" alt="image" src="https://github.com/user-attachments/assets/b257c2f0-c57a-4b3d-bbc5-f44d93f7cf5f" />
+
+* Click Finish to Finish.
+
+  <img width="392" height="185" alt="image" src="https://github.com/user-attachments/assets/72f17121-4a5e-4b97-8a3d-740ac0a7a5d7" />
+
+* Click “Yes” to restart your system.
+
+<img width="686" height="569" alt="image" src="https://github.com/user-attachments/assets/54432425-971d-48c4-8b3f-7220f9ec025a" />
+
+#### When you click your “Start” button, you can now see the installed apps, pinned items, and recommended items. The resolution display is better than before, and you have the option to adjust it. You are now connected to the internet.

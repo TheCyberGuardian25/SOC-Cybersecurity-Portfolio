@@ -3,7 +3,7 @@
 ##### As a cybersecurity professional, ensuring that Windows has the latest updates and patches is one of the best practices to keep our systems protected against known vulnerabilities.
 
 ## 🧩 1. Enable Windows Update for Automatic Updates
-* We should make sure that Windows automatically downloads and installs updates to keep our system secure.
+###### We should make sure that Windows automatically downloads and installs updates to keep our system secure.
   
 ## Steps to Enable Automatic Updates
 
@@ -35,3 +35,92 @@
 | Download updates over metered connections | ❌ Off | Prevents bandwidth overuse. Avoid performing updates on non-metered networks, such as mobile hotspots, tethered data, or pay-per-GB internet |
 | Notify me when a restart is required | ✅ On | Receive a notification to restart to complete the patch. |
 | Active hours | 09:00–22:00 | Avoids interruptions during working hours. |
+
+## 🧩 2. Regularly Patch OS and Software
+###### After we enabled the Windows Update, we should set the patch schedule regularyly for the OS and software for security and feature updates to keep up to date.
+
+## Steps on How to Regularly Patch OS and Software
+
+#### Navigate to Windows Update Setting
+* Click on **Check for updates** to ensure if there are no available updates, if there is then install it immediately.
+
+<img width="995" height="621" alt="Screenshot 2025-11-12 at 07 53 01" src="https://github.com/user-attachments/assets/73cfbdf0-69e6-479e-9933-0361e7cf2f57" />
+
+<img width="995" height="621" alt="Screenshot 2025-11-12 at 07 57 20" src="https://github.com/user-attachments/assets/842e0d92-1e62-4334-bf3e-390414077e2e" />
+
+
+###### If you prefer using the powershell to check for updates, you can do these steps.
+* Run on the powershell the command **Get-WindowsUpdate**
+
+<img width="1184" height="201" alt="Screenshot 2025-11-12 at 08 39 30" src="https://github.com/user-attachments/assets/b1f89914-e03d-4111-8f78-9801a72e8fc9" />
+
+###### However, if it's not working the command, we should install first the PSWindowsUpdate module.
+
+* Run the command **Install-Module -Name PSWindowsUpdate -Force -SkipPublisherCheck**
+
+<img width="980" height="201" alt="Screenshot 2025-11-12 at 08 43 01" src="https://github.com/user-attachments/assets/32d1b363-ae75-457b-816f-277d192a066d" />
+
+* Then, run the **Import-Module PSWindowsUpdate**
+
+<img width="1195" height="194" alt="Screenshot 2025-11-12 at 08 13 57" src="https://github.com/user-attachments/assets/dd7f9061-8749-4da8-b929-3eae4b4f8a28" />
+
+###### If this command isn't working, we should allow the script to bypass the restriction but only in the current PowerShell session.
+
+* Run the command **Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass**
+  * *Set-ExecutionPolicy → it changes the PowerShell decisions on whether to run scripts.*
+  * *Scope Process → its limiting the changes to the current PowerShell window only. Once you close the        Powershell windows, then,it will be back to the previous state.*
+  * *ExecutionPolicy Bypass → it tells PowerShell to ignore script restrictions for that specific session      (so your script or module will bypass the restriction).*
+
+<img width="1184" height="157" alt="Screenshot 2025-11-12 at 08 15 02" src="https://github.com/user-attachments/assets/041a7aad-9925-4d42-85eb-3bab5f8878c3" />
+
+* Run again the command **Import-Module PSWindowsUpdate**
+
+<img width="1184" height="48" alt="Screenshot 2025-11-12 at 08 15 48" src="https://github.com/user-attachments/assets/e86b6f07-2826-456e-b2f1-f5ea8383f2f5" />
+
+* This time, we can successfully run the command **Get-WindowsUpdate**
+
+<img width="886" height="127" alt="Screenshot 2025-11-12 at 08 31 31" src="https://github.com/user-attachments/assets/676d4e5a-fe1b-4453-8262-58837fdaf158" />
+
+###### You have a choice which one you want to use to update your system it's either via Settings or via Powershell command. If you choose via Powershell you can run this command *Install-WindowsUpdate -AcceptAll -AutoReboot*. For now, I want to use via Settings.
+
+<img width="716" height="249" alt="Screenshot 2025-11-12 at 08 30 58" src="https://github.com/user-attachments/assets/ca2bff90-62aa-42da-a168-7ffedd653c27" />
+
+* To complete the updates, restart the computer.
+
+<img width="1014" height="286" alt="Screenshot 2025-11-12 at 08 57 52" src="https://github.com/user-attachments/assets/c1e01bab-9177-4fd2-b058-9a44bf0ca431" />
+
+###### Now, we successfuly installed the security updates for our OS. However, we can see that there is available version that ready to installed. 
+
+<img width="724" height="286" alt="Screenshot 2025-11-12 at 09 26 44" src="https://github.com/user-attachments/assets/fc94a129-7e43-46b7-99e2-6c621df20f0e" />
+
+* Click the **See what's in this update** to see what this update of version is all about or you can access on this [link](https://support.microsoft.com/en-gb/windows/inside-this-update-93c5c27c-f96e-43c2-a08e-5812d92f220d?OCID=WUSettings)
+
+
+
+
+
+
+
+
+
+## 🧩 Step 3: Document a Patch Management Schedule
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

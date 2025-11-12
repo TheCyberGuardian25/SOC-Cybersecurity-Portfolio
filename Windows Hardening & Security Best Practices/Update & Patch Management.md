@@ -95,6 +95,7 @@
 
 * Click the **See what's in this update** to see what this update of version is all about or you can access on this [link](https://support.microsoft.com/en-gb/windows/inside-this-update-93c5c27c-f96e-43c2-a08e-5812d92f220d?OCID=WUSettings)
 
+<img width="989" height="455" alt="Screenshot 2025-11-12 at 09 54 11" src="https://github.com/user-attachments/assets/5f44c0cd-2d53-4e8e-b67b-94f823de0406" />
 
 
 

@@ -93,9 +93,13 @@
 
 <img width="724" height="286" alt="Screenshot 2025-11-12 at 09 26 44" src="https://github.com/user-attachments/assets/fc94a129-7e43-46b7-99e2-6c621df20f0e" />
 
-* Click the **See what's in this update** to see what this update of version is all about or you can access on this [link](https://support.microsoft.com/en-gb/windows/inside-this-update-93c5c27c-f96e-43c2-a08e-5812d92f220d?OCID=WUSettings)
+* Click the **"See what's in this update"** to see what this update of version is all about or you can access on this [link](https://support.microsoft.com/en-gb/windows/inside-this-update-93c5c27c-f96e-43c2-a08e-5812d92f220d?OCID=WUSettings)
 
 <img width="989" height="455" alt="Screenshot 2025-11-12 at 09 54 11" src="https://github.com/user-attachments/assets/5f44c0cd-2d53-4e8e-b67b-94f823de0406" />
+
+###### We have an option if we need to update to the latest version or not as long as the current version that you're using is still not end of service. 
+
+* To check 
 
 
 
